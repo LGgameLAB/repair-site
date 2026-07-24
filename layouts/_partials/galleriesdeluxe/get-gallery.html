@@ -1,0 +1,26 @@
+{{ $gallery := "" }}
+
+{{ $images := slice }}
+{{ if eq .Kind "term" }}
+  {{ range .Pages }}
+    {{ $images = $images | append (.Resources.ByType "image") }}
+  {{ end }}
+{{ else }}
+  {{ $images = (.Resources.ByType "image") }}
+{{ end }}
+
+{{ with $images }}
+  {{ $first := $images.GetMatch "*feature*" }}
+  {{ if not $first }}
+    {{ $id := $.RelPermalink | hash.FNV32a }}
+    {{ $idx := mod $id (len $images) }}
+    {{ $first = index $images $idx }}
+  {{ end }}
+  {{ $thumb := $first.Fill "400x264 center" }}
+  {{ $gallery = dict
+    "page" $
+    "images" $images
+    "thumb" $thumb
+  }}
+{{ end }}
+{{ return $gallery }}

@@ -1,0 +1,15 @@
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executables
+hugo.exe
+hugo.darwin
+hugo.linux
+hugo.log
+
+# Build lock file
+.hugo_build.lock
+

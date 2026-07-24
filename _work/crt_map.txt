@@ -1,0 +1,30 @@
+# CRT photo -> device mapping (global index 1..24 = order in CRT dir)
+# Status: DONE.
+
+# --- Grid 1 (1-12) ---
+1: Sony CRT Television ~1998
+2: CRT Television screen-closeup (same set as 1)
+3: CRT Television screen-closeup (same set as 1)
+4: Sony CRT Television ~1998
+5: CRT Television (unbranded) ~1990s
+6: CRT Television (unbranded) ~1990s
+7: CRT Television (unbranded) ~1990s
+8: CRT Television (unbranded) ~1990s
+9: Sony CRT Television ~1998
+10: Sony CRT Television ~1998
+11: Apple iMac G3 (CRT all-in-one Monitor) ~1998
+12: EXCLUDE (modern LCD + laptop, not CRT)
+
+# --- Grid 2 (13-24) ---
+13: Apple CRT Monitor (iMac) ~1998
+14: Compaq CRT Monitor ~1998
+15: Compaq CRT Monitor ~1998
+16: CRT Monitor (beige, unbranded) ~1990s
+17: CRT Monitor (beige, unbranded) ~1990s
+18: CRT Monitor (beige, unbranded) ~1990s
+19: CRT Monitor (beige, unbranded) ~1990s
+20: CRT Monitor (beige, unbranded) ~1990s
+21: Apple CRT Monitor (iMac) ~1998
+22: CRT Television (unbranded) ~1990s
+23: CRT Monitor ~2000s
+24: Compaq CRT Monitor ~1990s

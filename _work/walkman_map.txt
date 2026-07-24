@@ -1,0 +1,203 @@
+# Walkman photo -> model mapping (global index 1..197 = order in Walkman dir minus screenshots)
+# Status: IN PROGRESS. Grids 1-8 fully done (1-160). Grid 9 partial (161-168 done, 169-180 pending).
+# Lineup shots (multiple models in ONE photo) noted explicitly.
+
+# Format: GLOBAL_INDEX: model(s) | notes
+
+# --- Grid 1 (1-20) ---
+1: disassembled
+2: WM-10
+3: WM-F18
+4: WM-F100
+5: box
+6: box
+7: box
+8: WM-F10
+9: AIWA HS-G600
+10: WM-F77
+11: disassembled
+12: disassembled
+13: disassembled
+14: disassembled
+15: disassembled
+16: disassembled
+17: disassembled
+18: disassembled
+19: disassembled
+20: accessory
+
+# --- Grid 2 (21-40) ---
+21: WM-10
+22: not-a-player
+23: WM-100
+24: WM-100
+25: WM-100
+26: WM-F18
+27: WM-F10
+28: WM-F100
+29: WM-F77
+30: WM-F10
+31: AIWA HS-G600
+32: disassembled
+33: disassembled
+34: disassembled
+35: disassembled
+36: disassembled
+37: disassembled
+38: disassembled
+39: disassembled
+40: disassembled
+
+# --- Grid 3 (41-60) all WM-F100 disassembly (SONY PCB visible) ---
+41: disassembled-WM-F100
+42: disassembled-WM-F100
+43: disassembled-WM-F100
+44: disassembled-WM-F100
+45: not-a-player
+46: not-a-player
+47: disassembled-WM-F100
+48: disassembled-WM-F100
+49: disassembled-WM-F100
+50: disassembled-WM-F100
+51: disassembled-WM-F100
+52: disassembled-WM-F100
+53: disassembled-WM-F100
+54: disassembled-WM-F100
+55: disassembled-WM-F100
+56: disassembled-WM-F100
+57: disassembled-WM-F100
+58: disassembled-WM-F100
+59: disassembled-WM-F100
+60: disassembled-WM-F100
+
+# --- Grid 4 (61-80) ---
+61: disassembled
+62: disassembled
+63: not-a-player
+64: disassembled
+65: WM-F10
+66: WM-F100
+67: box
+68: not-a-player
+69: box
+70: disassembled
+71: disassembled
+72: disassembled
+73: disassembled
+74: box
+75: disassembled
+76: WM-F18
+77: WM-F77
+78: WM-10
+79: WM-10
+80: WM-F77
+
+# --- Grid 5 (81-100) ---
+81: WM-F10
+82: WM-F10
+83: WM-10
+84: WM-F18
+85: WM-F18
+86: WM-F77
+87: WM-10
+88: WM-100
+89: WM-F18
+90: disassembled
+91: WM-F18
+92: accessory
+93: disassembled
+94: not-a-player
+95: disassembled
+96: disassembled
+97: disassembled
+98: disassembled
+99: disassembled
+100: disassembled
+
+# --- Grid 6 (101-120) ---
+101: disassembled
+102: disassembled
+103: WM-F100
+104: WM-F100
+105: WM-F100
+106: unknown
+107: WM-F10
+108: unknown
+109: WM-F100
+110: unknown
+111: unknown
+112: WM-F10
+113: WM-F10
+114: disassembled
+115: WM-F10
+116: WM-F10
+117: accessory
+118: disassembled
+119: disassembled
+120: WM-F100
+
+# --- Grid 7 (121-140) ---
+121: unknown
+122: unknown
+123: unknown
+124: unknown
+125: disassembled
+126: disassembled
+127: disassembled
+128: disassembled
+129: WM-F100
+130: WM-10
+131: box
+132: box
+133: AIWA HS-G600
+134: WM-100
+135: disassembled
+136: disassembled
+137: disassembled
+138: disassembled
+139: disassembled
+140: disassembled
+
+# --- Grid 8 (141-160) ---
+141: WM-F100
+142: WM-F100
+143: WM-F100
+144: WM-F100
+145: WM-10
+146: accessory
+147: accessory
+148: WM-F100
+149: WM-10
+150: WM-10
+151: disassembled
+152: WM-100
+153: WM-F10
+154: WM-F10
+155: WM-F10
+156: WM-F10
+157: disassembled
+158: disassembled
+159: WM-F10
+160: box
+
+# --- Grid 9 (161-180) ---
+161: WM-F10
+162: WM-F10 + WM-100 + WM-F18 + WM-F77  (LINEUP, 2x2)
+163: WM-F10 + WM-F100 + WM-F18 + WM-F77  (LINEUP, 2x2)
+164: WM-F10 + WM-F100 + WM-10 + WM-F18   (LINEUP, 2x2)
+165: WM-F10 + WM-F100 + WM-F18 + WM-F77  (LINEUP, 2x2)
+166: WM-F10 + WM-F100 + WM-10 + WM-F18   (LINEUP, 2x2)
+167: WM-F10 + WM-10 + WM-F18 + WM-F77    (LINEUP, row of 4)
+168: WM-10 + WM-F10 + WM-F18 + WM-100    (LINEUP, row of 4)
+169: WM-10 + WM-F10 + WM-F18 + WM-F77    (LINEUP, row of 4)
+170: WM-F10 + WM-100 + WM-F18 + AIWA HS-G600  (LINEUP, 2x2)
+171: WM-F10 + WM-F100 + WM-F18 + WM-F77  (LINEUP, 2x2 open/mech)
+172: WM-F10 + WM-100  (two units)
+173: WM-10
+174: WM-F100
+175: WM-F77
+176: WM-F18
+177: WM-F18
+178: WM-F77
+179: WM-F10
+180: WM-F18

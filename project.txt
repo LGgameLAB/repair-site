@@ -1,0 +1,30 @@
+Build me a personal portfolio and gallery website using Hugo with the GalleriesDeluxe theme (https://themes.gohugo.io/themes/galleriesdeluxe/).
+Site concept and theme:
+This is a portfolio site for a vintage analogue electronics repair and restoration enthusiast. The aesthetic should feel warm, technical, and nostalgic — celebrating the craftsmanship of analogue technology. The two primary focuses are CRT televisions/monitors and portable cassette players (Walkmans). The tone is that of someone who genuinely loves this hardware, not a sterile repair shop.
+Gallery structure:
+
+Look in my photos directory (/run/media/luke/e0c64a5a-108c-4b5d-970c-737155040554/Pictures/Phone Backup/Photos/)and scan for all images related to CRT televisions, CRT monitors, and portable cassette players/Walkmans
+Sort them by similarity — group by model or model family where possible and copy them into the appropriate static content directory seperated within folders.
+Create a gallery post for each group with the following details auto-populated where inferrable from the image or filename:
+
+Device name/model
+Approximate year of manufacture
+Technology format (e.g. CRT Television, CRT Monitor, Compact Cassette, etc.)
+
+
+Leave caption fields blank or with a placeholder — I will fill these in manually
+
+Hugo setup:
+
+Install and configure the GalleriesDeluxe theme correctly
+Set up the hugo.toml with appropriate site title, description, and navigation
+Structure content so adding new gallery posts in future is straightforward
+Make sure the site builds cleanly with hugo server
+
+Do not:
+
+Auto-generate captions or descriptions beyond the basic metadata above
+Add any content I haven't specified
+
+
+One heads up — Hermes will need the GalleriesDeluxe theme either pulled via git submodule or downloaded, so make sure your environment has internet access or the theme files available locally. Also worth checking that the theme supports the gallery post structure you want before committing to it — Hugo themes vary a lot in how opinionated they are about content organization.
