@@ -1,6 +1,6 @@
 ---
 title: "Assorted Walkmans"
-date: 1988
+date: 2024-07-12
 categories: ["Walkman", "Sony"]
 ---
 

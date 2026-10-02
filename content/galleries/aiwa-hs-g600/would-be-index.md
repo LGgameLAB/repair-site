@@ -6,6 +6,7 @@ categories: ["Walkman", "AIWA"]
 
 Device: AIWA HS-G600
 Technology: Compact Cassette — Portable Player
-Approx. year: 1985
+
+Year: 1985
 
 _Photo captions to be added._

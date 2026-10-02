@@ -1,11 +1,10 @@
 ---
 title: "Sony WM-100"
-date: 1986
+date: 2025-09-06
 categories: ["Walkman", "Sony"]
 ---
 
-Device: Sony WM-100
 Technology: Compact Cassette — Portable Player (AM/FM)
-Approx. year: 1986
 
-_Photo captions to be added._
+Year: 1986
+

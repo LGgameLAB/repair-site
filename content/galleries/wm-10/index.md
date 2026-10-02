@@ -1,11 +1,10 @@
 ---
 title: "Sony WM-10"
-date: 1983-01-01
+date: 2024-07-26
 categories: ["Walkman", "Sony"]
 ---
 
-Device: Sony WM-10
 Technology: Compact Cassette — Portable Player
-Approx. year: 1983
 
-_Photo captions to be added._
+Year: 1983
+
